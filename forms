@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- Action where form sends data to our own backend later e.g wikipedia.org-->
+<!-- Method, what http method used (get/post) -->
+<!-- "name" is gonna show in query string in address bar when entered-->
+
+<!-- <form action="http://www.wikipedia.org" method="GET">
+    <label>
+        Username:
+        <input name="username" type="username" placeholder="Username">
+    </label>
+    
+    <label>
+        Password:
+        <input name="password" type="password" placeholder="Password">
+    </label>
+    
+    <input type="Submit">
+</form> -->
+
+<form action="http://www.wikipedia.org" method="GET">
+    <label for="username">Username:</label>
+    <input id="username" type="username" placeholder="Username">
+    
+    <label for="password" >Password:</label>
+    <input id="password" name="password" type="password" placeholder="Password">
+    
+    <input type="Submit">
+</form>
+
+</body>
